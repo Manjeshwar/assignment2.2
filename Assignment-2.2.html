@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+    <title>Assignment 2.2 Forms</title>
+    <style>
+		body{
+			width:50%;	
+		}
+	</style>
+</head>
+<body>
+
+<h1>Forms</h1>
+
+<form action="link.php" method="get">
+<fieldset>
+<legend>Your Details:</legend>
+<label>Name: <input type="text" name="name" size="30"
+maxlength="100"></label><br />
+<label>Email: <input type="email" name="email" size="30"
+maxlength="100"></label><br />
+</fieldset><br />
+</form>
+
+<form action="link2.php" method="get">
+<fieldset>
+<legend>Your Review:</legend>
+<label>How did you hear about us
+    <select>
+        <option>Google</option>
+        <option>Facebook</option>
+    </select>
+</label><br /><br />
+<label>Would you visit again? </label><br />
+<input type="radio" name="anyone" ><label>Yes</label>
+<input type="radio" name="anyone" ><label>No</label>
+<input type="radio" name="anyone" ><label>May Be</label><br /><br />
+
+<label>Comments:</label><br />
+<textarea cols="39" rows="5"></textarea><br /><br />
+
+<input type="checkbox" checked><label>Sign me Up for new E-mail Updates</label><br />
+
+<button>Submit Review</button>
+</fieldset><br />
+</form>
+
+</body>
+</html>
